@@ -2,7 +2,7 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import "./Search_box.css"
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 // import.meta.env.VITE_*
 
 
@@ -54,6 +54,16 @@ function SearchBox({updateInfo}){
         }
         
     }
+
+    useEffect(()=>{
+        if(error==true){
+            setTimeout(()=>{
+                setError(false)
+            },3000)
+            // setError(false);
+        }
+    },[error]);
+
     return(
         <>
             <h2>Search For Weather of Your City</h2>
@@ -70,8 +80,8 @@ function SearchBox({updateInfo}){
                     <Button variant="contained" type='submit'>
                         SEARCH
                     </Button>
-                    {error && <p style={{color:"red"}}>No such Place Exist!</p>}
-                
+                    {/* {error && <p style={{color:"red"}}>No such Place Exist!</p>} */}
+                    {error?<p style={{color:"red"}}>No such Place Exist!</p>: <p></p>}
 
 
                 </form>
