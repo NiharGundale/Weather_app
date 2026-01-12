@@ -4,7 +4,8 @@ import { useState } from 'react'
 // import './App.css'
 import Button from '@mui/material/Button';
 
-import WeatherApp from './weatherApp.jsx';
+// import WeatherApp from './WeatherApp.jsx';
+import WeatherApp from './WeatherApp';
 
 function App() {
   const [count, setCount] = useState(0)
