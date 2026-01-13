@@ -15,7 +15,7 @@ const InfoBox=({info})=>{
     
     let hot_image_url="https://plus.unsplash.com/premium_photo-1764691205156-72b599a1ffdb?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
     let cold_image_url="https://images.unsplash.com/photo-1644803188798-f87b4e482452?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
-    let rain_image_url="https://media.istockphoto.com/id/1322717990/photo/thick-dark-black-heavy-storm-clouds-covered-summer-sunset-sky-horizon-gale-speed-wind-blowing.jpg?s=2048x2048&w=is&k=20&c=mewnYZ8WxMj38N9MqXLhUC-huiT0wkuEXssd0VTYDaU=";
+    let rain_image_url="https://images.unsplash.com/photo-1498847559558-1e4b1a7f7a2f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
     return(
         <>
