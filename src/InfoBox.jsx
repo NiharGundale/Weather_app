@@ -34,7 +34,7 @@ const InfoBox=({info})=>{
                     </Typography>
                     <Typography variant="body2" sx={{ color: 'text.secondary' }} component={"span"}>
                         <p>Temperture = {info.temp}&deg;C</p>
-                        <p>Humidity = {info.humidity}</p>
+                        <p>Humidity = {info.humidity}%</p>
                         <p>Min Temp = {info.tempMin}&deg;C</p>
                         <p>Max Temp = {info.temtMax}&deg;C</p>
                         <p>The Weather can be described as <b><i>{info.weather}</i></b> and feels like <b>{info.feelsLike}&deg;C</b>. </p>

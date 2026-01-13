@@ -82,7 +82,7 @@ function SearchBox({updateInfo}){
                     </Button>
                     {/* {error && <p style={{color:"red"}}>No such Place Exist!</p>} */}
                     {error?<p style={{color:"red"}}>No such Place Exist!</p>: <p></p>}
-
+                
 
                 </form>
                 
